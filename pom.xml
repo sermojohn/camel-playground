@@ -23,14 +23,14 @@
     </dependency>
 
     <dependency>
-      <groupId>org.apache.activemq</groupId>
-      <artifactId>activemq-camel</artifactId>
-      <version>5.13.2</version>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-csv</artifactId>
+      <version>2.17.0</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.camel</groupId>
-      <artifactId>camel-csv</artifactId>
+      <artifactId>camel-zipfile</artifactId>
       <version>2.17.0</version>
     </dependency>
 
