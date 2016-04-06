@@ -33,6 +33,17 @@
       <artifactId>camel-zipfile</artifactId>
       <version>2.17.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-quartz</artifactId>
+      <version>2.17.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-zipfile</artifactId>
+      <version>2.17.0</version>
+    </dependency>
 
     <!-- logging -->
     <dependency>
