@@ -1,6 +1,5 @@
 package gr.iserm.java.camel.myflow.processors;
 
-import gr.iserm.java.camel.myflow.routers.SimpleIntegrationRoute;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.slf4j.Logger;
@@ -11,7 +10,7 @@ import org.slf4j.LoggerFactory;
  */
 public class HeavyProcessor implements Processor {
 
-	private static final Logger LOG = LoggerFactory.getLogger(SimpleIntegrationRoute.class);
+	private static final Logger LOG = LoggerFactory.getLogger(HeavyProcessor.class);
 
 	@Override
 	public void process(Exchange exchange) throws Exception {
