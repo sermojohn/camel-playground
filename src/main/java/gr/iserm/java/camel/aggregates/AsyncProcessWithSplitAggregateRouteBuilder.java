@@ -10,6 +10,7 @@ public class AsyncProcessWithSplitAggregateRouteBuilder extends RouteBuilder {
 	@Override
 	public void configure() throws Exception {
 		from("direct:inbox")
+				.log("processing handled by [{{consumers}}]")
 				.process(new Processor() {
 					@Override
 					public void process(Exchange exchange) throws Exception {
