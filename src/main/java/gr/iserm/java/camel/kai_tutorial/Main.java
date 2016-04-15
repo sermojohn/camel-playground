@@ -15,7 +15,7 @@ public class Main {
 
 		context.start();
 
-		Thread.sleep(30000);
+		Thread.sleep(60000);
 
 		context.stop();
 	}

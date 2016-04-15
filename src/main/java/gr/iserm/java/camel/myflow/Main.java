@@ -1,5 +1,6 @@
 package gr.iserm.java.camel.myflow;
 
+import gr.iserm.java.camel.myflow.routers.MulticastRouteBuilder;
 import gr.iserm.java.camel.zip.ZipRoute;
 import org.apache.camel.CamelContext;
 import org.apache.camel.impl.DefaultCamelContext;
@@ -11,6 +12,8 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		CamelContext context = new DefaultCamelContext();
+
+		context.addRoutes(new MulticastRouteBuilder());
 
 		context.start();
 
